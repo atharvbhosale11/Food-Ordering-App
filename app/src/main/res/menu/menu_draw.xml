@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hp.anew">
+
+    <group android:checkableBehavior="single">
+        >
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            android:visible="true"
+            android:checked="false"
+            />
+
+        <item
+            android:id="@+id/nav_ord"
+            android:icon="@drawable/ic_receipt_black_24dp"
+            android:title="Order Receipt"
+            android:visible="true"
+            android:checked="false" />
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/ic_rate"
+            android:title="Rate Us"
+            />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/nav_log"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout" />
+
+    </group>
+</menu>

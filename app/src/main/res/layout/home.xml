@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Home"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:layout_marginTop="55dp"
+    android:layout_below="@+id/toolbar"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:id="@+id/buttonstart"
+        android:text="STARTERS"
+        android:textSize="50sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/starters" />
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/buttonsna"
+        android:text="Snacks"
+        android:textSize="50sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/snacks"
+        android:layout_width="match_parent"
+        android:layout_height="100sp" />
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/buttonmain"
+        android:text="MAIN course"
+        android:textSize="50sp"
+        android:background="@drawable/main1"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="100sp" />
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/buttonBev"
+        android:text="Beverages"
+        android:textSize="50sp"
+        android:background="@drawable/beve"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="100sp" />
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/buttonDes"
+        android:text="Dessert"
+        android:background="@drawable/dessert"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp" />
+
+</LinearLayout>

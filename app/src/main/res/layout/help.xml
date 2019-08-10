@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.anew.Help"
+    tools:layout_editor_absoluteY="25dp">
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Navigation:"
+            android:textColor="#12035F"
+            android:textSize="20sp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Move your mouse pointer to the Menu corner at the top left of the screen to show the Menu overview. "
+            android:textColor="#12595F"
+            android:textSize="15sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Customization:"
+            android:textColor="#12035F"
+            android:textSize="20sp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Make foodies yours through customization settings in account settings and add-ons "
+            android:textColor="#12595F"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Crashing error:"
+            android:textColor="#12035F"
+            android:textSize="20sp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="If foodies keeps crashing when you try to start it and other solutions don't work, a clean reinstall can often fix the problem. "
+            android:textColor="#12595F"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingTop="400dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How can we help you?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+
+            />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:inputType="textPersonName">
+
+            <requestFocus />
+        </EditText>
+
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText1"
+            android:layout_marginBottom="10dp"
+            android:background="#0099FF"
+            android:text="Submit"
+            android:textColor="#FFFFFF"></Button>
+    </LinearLayout>
+</FrameLayout>

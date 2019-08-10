@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="110sp"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@android:color/darker_gray"
+            app:cardCornerRadius="12dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:src="@drawable/roti"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp" />
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_marginLeft="20dp"
+                    android:text="Roti"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"
+                    android:layout_toRightOf="@+id/img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/rs1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/txt1"
+                    android:layout_toRightOf="@+id/img1"
+                    android:text="Rs"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/price1"
+                    android:layout_toRightOf="@+id/rs1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/txt1"
+                    android:text="20"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageButton
+                    android:layout_toRightOf="@+id/price1"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginTop="50dp"
+                    android:id="@+id/dec1"
+                    android:src="@drawable/ic_do_not_disturb_on_black_24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/quan1"
+                    android:textSize="27sp"
+                    android:text="0"
+                    android:layout_toRightOf="@+id/dec1"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageButton
+                    android:id="@+id/inc1"
+                    android:layout_toRightOf="@+id/quan1"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add_circle_black_24dp"/>
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="110sp"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@android:color/darker_gray"
+            app:cardCornerRadius="12dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:src="@drawable/chap"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp" />
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_marginLeft="20dp"
+                    android:text="Chapati"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"
+                    android:layout_toRightOf="@+id/img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/rs2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/txt2"
+                    android:layout_toRightOf="@+id/img2"
+                    android:text="Rs"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/price2"
+                    android:layout_toRightOf="@+id/rs2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/txt2"
+                    android:text="15"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageButton
+                    android:layout_toRightOf="@+id/price2"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginTop="50dp"
+                    android:id="@+id/dec2"
+                    android:src="@drawable/ic_do_not_disturb_on_black_24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/quan2"
+                    android:textSize="27sp"
+                    android:text="0"
+                    android:layout_toRightOf="@+id/dec2"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageButton
+                    android:id="@+id/inc2"
+                    android:layout_toRightOf="@+id/quan2"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add_circle_black_24dp"/>
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="110sp"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@android:color/darker_gray"
+            app:cardCornerRadius="12dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:src="@drawable/buttern"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp" />
+
+                <TextView
+                    android:id="@+id/txt3"
+                    android:layout_marginLeft="20dp"
+                    android:text="Butter Nan"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"
+                    android:layout_toRightOf="@+id/img3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/rs3"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/txt3"
+                    android:layout_toRightOf="@+id/img3"
+                    android:text="Rs"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/price3"
+                    android:layout_toRightOf="@+id/rs3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/txt3"
+                    android:text="25"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageButton
+                    android:layout_toRightOf="@+id/price3"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginTop="50dp"
+                    android:id="@+id/dec3"
+                    android:src="@drawable/ic_do_not_disturb_on_black_24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/quan3"
+                    android:textSize="27sp"
+                    android:text="0"
+                    android:layout_toRightOf="@+id/dec3"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageButton
+                    android:id="@+id/inc3"
+                    android:layout_toRightOf="@+id/quan3"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add_circle_black_24dp"/>
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="110sp"
+            android:layout_margin="10dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@android:color/darker_gray"
+            app:cardCornerRadius="12dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:src="@drawable/garlic"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp" />
+
+                <TextView
+                    android:id="@+id/txt4"
+                    android:layout_marginLeft="20dp"
+                    android:text="Garlic Nan"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp"
+                    android:layout_toRightOf="@+id/img4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/rs4"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/txt4"
+                    android:layout_toRightOf="@+id/img4"
+                    android:text="Rs"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/price4"
+                    android:layout_toRightOf="@+id/rs4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@id/txt4"
+                    android:text="40"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageButton
+                    android:layout_toRightOf="@+id/price4"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginTop="50dp"
+                    android:id="@+id/dec4"
+                    android:src="@drawable/ic_do_not_disturb_on_black_24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/quan4"
+                    android:textSize="27sp"
+                    android:text="0"
+                    android:layout_toRightOf="@+id/dec4"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageButton
+                    android:id="@+id/inc4"
+                    android:layout_toRightOf="@+id/quan4"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add_circle_black_24dp"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">Main</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_min_course">MinCourse</string>
+    <string name="name_on_card">Name On Card</string>
+    <string name="card_number_format">xxxx-xxxx-xxxx-xxxx</string>
+    <string name="cvv">CVV</string>
+    <string name="month_format">MM</string>
+    <string name="year_format">YYYY</string>
+    <string name="enter_card_details">Enter Card Details</string>
+    <string name="save_card">Save card for faster checkouts.</string>
+    <string name="enable_one_click_checkout">Enable one click checkout.</string>
+    <string name="expires">Expires:</string>
+</resources>

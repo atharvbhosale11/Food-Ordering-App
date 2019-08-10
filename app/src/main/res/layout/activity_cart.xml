@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cart">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:gravity="center_vertical"
+                android:text="ITEM  NAME"
+                android:textSize="33dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_width="255dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:text=":"
+                android:textColor="@android:color/black"
+                android:textSize="40dp"
+                android:layout_width="10dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:gravity="center_vertical"
+                android:text="COST"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_width="80dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:text=":"
+                android:textColor="@android:color/black"
+                android:textSize="40dp"
+                android:layout_width="10dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:text="QTY"
+                android:textSize="28sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_width="55dp"
+                android:layout_height="60dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:text="swipe left to delete"
+            android:textSize="25dp"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp" />
+
+        <com.baoyz.swipemenulistview.SwipeMenuListView
+            android:id="@+id/cartlist"
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:layout_margin="10dp">
+        </com.baoyz.swipemenulistview.SwipeMenuListView>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_marginBottom="80dp"
+        android:layout_gravity="center|bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ind"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:text="YOUR TOTAL IS : "
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/rup"
+            android:src="@drawable/rup"
+            android:layout_toRightOf="@+id/ind"
+            android:layout_width="35dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/rup"
+            android:layout_marginRight="10dp"
+            android:text="0"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="bottom|center"
+        android:text="Proceed To Pay"
+        android:layout_below="@+id/cartlist"
+        android:layout_width="150dp"
+        android:layout_height="50dp" />
+</android.support.design.widget.CoordinatorLayout>

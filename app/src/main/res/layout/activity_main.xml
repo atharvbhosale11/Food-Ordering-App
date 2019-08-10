@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="@drawable/custom_border"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="USER  REGISTRATION"
+            android:textColor="@android:color/white"
+            android:textColorHighlight="@android:color/white"
+            android:textSize="33sp" />
+
+        <ViewFlipper
+            android:id="@+id/viewflipper"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="0dp"
+            >
+
+            <ImageView
+                android:id="@+id/flipImage2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/snack" />
+
+        </ViewFlipper>
+        <EditText
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter your email"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter your password"
+            android:inputType="textPassword"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/ButtonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register User"
+            android:textSize="20sp"/>
+        <TextView
+            android:textAlignment="center"
+            android:text="Already registered? Sign in"
+            android:id="@+id/textviewSignin"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
